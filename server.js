@@ -9,7 +9,6 @@ const app = express();
 //Here, you define a constant PORT that specifies the port number on which your server will listen for incoming HTTP requests. It checks the process.env.PORT environment variable, which is often used in cloud-hosted environments to specify the port
 const PORT = process.env.PORT || 8000;
 
-
 //This creates an object called articlesInfo that will serve as a simple in-memory database for your application.
 // const articlesInfo = {
 //   "learn-react": {
